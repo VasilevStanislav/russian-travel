@@ -2,6 +2,14 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #ffffff;
+  -webkit-transition: opacity 0,5s ease;
+  -o-transition: opacity 0,5s ease;
+  transition: opacity 0,5s ease;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
